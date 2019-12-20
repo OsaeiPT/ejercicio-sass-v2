@@ -1,0 +1,98 @@
+doctype html
+html(lang="es")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+  title Un Mundo De Imagenes Sass
+  link(rel="stylesheet", href="css/bootstrap.min.css")
+  link(rel="stylesheet", href="fotografo-app.css")
+
+body
+
+  nav.navbar.navbar-expand-sm.bg-dark.navbar-light.fixed-top
+    .container
+      <h1 class="d-none">Sigfrid-Studio</h1>
+      <img src="img-f/logo.png" class="img-fluid img-logo">
+      button(type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse")
+        .raya
+        .raya
+        .raya
+      .collapse.navbar-collapse(id="navbarcollapse")
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href="fotografo-index.html") Inicio
+          li.nav-item
+          li.nav-item.dropdown
+            a.nav-link.dropdown-toggle(href="#" data-toggle="dropdown") Galerias
+            .dropdown-menu.font
+              a.dropdown-item(href="bodas.html") Bodas
+              a.dropdown-item(href="paisajes.html") Paisajes
+              a.dropdown-item(href="caras-mujeres.html") Mujeres
+              a.dropdown-item(href="caras-hombres.html") Hombres
+          li.nav-item
+            a.nav-link(href="#info-contact") Contactanos
+
+  header(id="home-section")
+    .container
+      .row
+        .col-md-12
+          h1.title_principal.text-capitalize.text-info.text-center.top-100px
+          h2.display-3.top-titulo-principal.text-info.font-size el mejor en fotos personalizadas
+          p.parrafo-top Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aspernatur reiciendis vero quidem autem.
+           Reprehenderit dolorum fugit est dolores cumque similique aut, molestias corrupti consequatur mollitia veritatis, ratione voluptas. Minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis animi eius aspernatur laborum eveniet, excepturi tempora consequatur amet officiis exercitationem. Architecto sapiente porro eveniet quasi? Doloremque ipsam reiciendis commodi assumenda?
+  section.info-section.py-5(id="info-section")
+    .container
+      .row.bottom
+        .col-md-12.text-danger
+          h3.display-4.top-subtitulo Galeria
+          h4.display-5.top-subtitulo-principal Bodas
+          
+        .col-md-6.d-flex.background-file
+
+          img.img-fluid.height-330.left-70.img-thumbnail(src="img-f/boda/boda5.jpeg", alt="Via Desde Arriba")
+
+          p.left-parrafo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam repellat ipsum beatae quam a modi officiis voluptas odit corporis, exercitationem eius error temporibus tenetur expedita sunt. Qui soluta ipsa quidem?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque impedit laudantium optio itaque magni, ex quia blanditiis molestias harum officiis aliquid cupiditate praesentium nisi recusandae odio ullam officia in?
+        
+        .col-md-6.d-flex.background-file
+
+          img.img-fluid.height-330.left-71.img-thumbnail(src="img-f/boda/boda7.jpeg", alt="Via Desde Arriba")
+
+          P.left-parrafo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nesciunt dignissimos deserunt consequuntur quia incidunt sit, illum ut similique rem architecto ad excepturi consequatur reiciendis quo cumque nobis quae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe recusandae libero, sit natus deserunt deleniti rem. Beatae, blanditiis? Adipisci corporis debitis, dolores nisi incidunt quia quod tempora dolorem voluptatum neque.
+  section.info-section.bg-danger.text-white(id="info-contact")
+    .container
+      .row
+        .col-md-12.text-center.text-white.py-5
+          h5.display-4 Escríbenos
+        .col-md-4.text-center.text-white.py-5
+          img.img-fluid(src="img/img-logos/direcion.png", alt="Ubicacion")
+          h6.display-6 Dirección
+          p Av. Lima Sin Numero
+        .col-md-4.text-center.text-white.py-5
+          img.img-fluid(src="img/img-logos/telf.png", alt="Telefono")
+          h6.display-6 Telefono
+          p Av. +51 999999999
+          p (01) 637 7727 - (01) 446 6237
+        .col-md-4.text-center.text-white.py-5
+          img.img-fluid(src="img/img-logos/telf.png", alt="Email")
+          h6.display-6 Correo
+          p viacodigo@viacodigo.com
+         
+
+  footer.footer.mt-20.bg-dark
+    .container
+      .row
+        .col-md-12.p-5
+          p.text-center.lead.text-info &copy; Copyright Viacoder. All Rights Reserver 2019.
+
+        
+
+
+
+  
+  script(src="js/jquery-3.2.1.slim.min.js")
+  script(src="js/popper.min.js")
+  script(src="js/bootstrap.min.js")
+  script(src="fontawesome/fontawesome-free-5.8.2-web/js/all.min.js")

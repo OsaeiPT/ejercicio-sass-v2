@@ -1,0 +1,52 @@
+.navbar {
+  border-bottom: #c0392b 3px solid;
+  opacity      : .7;
+}
+
+.bg-dark {
+  background-color: #4a4a4a !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: rgb(0, 57, 83) !important;
+}
+
+#home-section {
+  background-image: url(img/via-arriba.jpg);
+  margin-top      : 70px;
+  background-size : cover;
+  height          : 270px;
+}
+
+.title_principal {
+  font-size : 28px;
+  color     : white;
+  margin-top: 90px;
+}
+
+.sub_title_principal {
+  font-size: 24px;
+  color    : white;
+}
+
+.bg-info {
+  opacity: .7;
+}
+
+.section_title {
+  color    : white;
+  font-size: 22px;
+}
+
+.section_sub_title {
+  color    : white;
+  font-size: 20px;
+}
+
+.span-parrafo-segundo {
+  color: rgb(0, 57, 83);
+}
